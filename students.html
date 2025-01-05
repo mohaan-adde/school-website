@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2 class="dashboard-title">Students</h2>
+        <ul class="nav-links">
+            <li><a href="https://gsu.edu.so/"><img src="logo.jpg" alt="GSU" height="120" width="180"></a></li>
+            <li><a href="index.html">🏠 Home</a></li>
+            <li><a href="students.html" class="active">👤 Students</a></li>
+            <li><a href="#">📚 Courses</a></li>
+            <li><a href="#">📝 Enrollments</a></li>
+            <li><a href="#">🏷 Marks</a></li>
+            <li><a href="#">👥 Users</a></li>
+        </ul>
+        <div class="logout">
+            <p>Welcome, administrator</p>
+            <button class="logout-btn">Logout</button>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <h1 class="main-title">Students</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Search by student...">
+            <input type="text" placeholder="Search by gender">
+            <button class="search-btn">🔍 Search</button>
+        </div>
+        <button class="add-btn">+ Add New Student</button>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                   
+                    <th>Name</th>
+                    <th>Birthdate</th>
+                    <th>Gender</th>
+                    <th>Address</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                    <th>Enrolled In</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2</td>
+                 
+                    <td>Chuckles McLaugherson</td>
+                    <td>1995-04-01</td>
+                    <td>Male</td>
+                    <td>123 Laughing Lane, Jollyville, Happyland</td>
+                    <td>+1 (555) 123-4567</td>
+                    <td>chuckles@mail.com</td>
+                    <td><a href="#" class="view-link">view</a></td>
+                    <td>
+                        <button class="edit-btn">✏️ Edit</button>
+                        <button class="delete-btn">🗑 Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                   
+                    <td>Giggles O'Haha</td>
+                    <td>1998-09-15</td>
+                    <td>Female</td>
+                    <td>456 Smiley Street, Grinfest, Joytown</td>
+                    <td>+1 (555) 987-6543</td>
+                    <td>giggles@mail.com</td>
+                    <td><a href="#" class="view-link">view</a></td>
+                    <td>
+                        <button class="edit-btn">✏️ Edit</button>
+                        <button class="delete-btn">🗑 Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                 
+                    <td>Ha Ha Ha</td>
+                    <td>1997-07-07</td>
+                    <td>Female</td>
+                    <td>321 Happy Avenue, Giggleburg, Smilesdale</td>
+                    <td>+1 (555) 777-8888</td>
+                    <td>haha@mail.com</td>
+                    <td><a href="#" class="view-link">view</a></td>
+                    <td>
+                        <button class="edit-btn">✏️ Edit</button>
+                        <button class="delete-btn">🗑 Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
