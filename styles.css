@@ -1,3 +1,4 @@
+/* Global Styles */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -85,6 +86,7 @@ body {
 
 .stats-cards {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     justify-content: space-between;
 }
@@ -92,8 +94,8 @@ body {
 .card {
     background-color: #fff;
     border-radius: 10px;
-    padding: 20px;
-    width: 100%;
+    padding: 30px;
+    flex: 0 1 calc(35% - 2px);
     text-align: center;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
